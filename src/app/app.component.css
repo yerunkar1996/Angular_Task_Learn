@@ -1,0 +1,17 @@
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+table,th,td{
+  padding: 10px;
+  border-collapse: collapse;
+  border: 2px solid black ;
+}

@@ -1,0 +1,23 @@
+
+
+<h2>{{title}}</h2>
+
+
+<table>
+  <thead>
+    
+    <th >Name</th>
+    <th>No of Times</th>
+    
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of NameData">
+        <td [ngClass]=" row.count >0 && row.count<3 ? 'red' : row.count > 10 ?  'green' : 'yellow' ">
+          {{row.Name}}
+        </td>
+        <td [ngClass]=" row.count >0 && row.count<3 ? 'red' : row.count > 10 ?  'green' : 'yellow' ">
+          {{row.count}}
+        </td>
+    </tr>
+  </tbody>
+</table>
